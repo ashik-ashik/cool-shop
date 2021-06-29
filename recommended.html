@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cool Online Shop Website</title>
+  <link rel="shortcut icon" href="https://ashik-ashik.github.io/img/cool-shop/favicon/ashik.ico" type="image/x-icon">
+
+  <!-- BS -->
+  <link rel="stylesheet" href="./assets/bootstrap-5/css/bootstrap.min.css">
+
+  <!-- BI -->
+  <link rel="stylesheet" href="./assets/boxicons/css/boxicons.min.css">
+
+  <!-- Content Slider -->
+  <link rel="stylesheet" href="./assets/Content-Slider/dist/css/slider-pro.min.css">
+  <link rel="stylesheet" href="./assets/Content-Slider/examples/css/examples.css">
+
+  <!-- Flip Count -->
+  <!-- <link rel="stylesheet" href="./assets/flipUp-Countdown/css/media.css"> -->
+
+  <!-- Image Swap -->
+  <link rel="stylesheet" href="./assets/Image-Swap/swapimagesonhover.min.css">
+
+  <!-- magnify Glass -->
+  <!-- <link rel="stylesheet" href="./assets/Magnifying-Glass/style.css"> -->
+  <!-- <link rel="stylesheet" href="./assets/Touch-Image-Zoom/src/enlarge.css"> -->
+
+  <!-- Owl Ca -->
+  <link rel="stylesheet" href="./assets/OwlCarousel2/dist/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="./assets/OwlCarousel2/dist/assets/owl.theme.default.min.css">
+
+  <!-- slick slider -->
+  <link rel="stylesheet" href="./assets/slick-slider/slick/slick.css">
+  <link rel="stylesheet" href="./assets/slick-slider/slick/slick-theme.css">
+
+  <!-- Venobox -->
+  <link rel="stylesheet" href="./assets/VenoBox/venobox/venobox.min.css">
+
+  <!-- aos -->
+  <link rel="stylesheet" href="./assets/aos/dist/aos.css">
+
+  <!-- My CSS -->
+  <link rel="stylesheet" href="css/index.css">
+
+</head>
+<body>
+
+  <header class="header" id="header">
+
+  <!-- top header area -->
+  <div class="top header bg-light py-0 my-0 d-none d-md-block">
+    <div class="container py-0 my-0">
+      <div class="d-flex justify-content-between align-items-center py-1 m-0">
+        <div class="left">
+          <span class="me-2 fs-12 fw-n"><i class="bx bx-check-square me-1"></i>Accurate Weight</span>
+          <span class="me-2 fs-12 fw-n"><i class="bx bx-check-square me-1"></i>Fresh & Fast</span>
+          <span class="me-2 fs-12 fw-n"><i class="bx bx-check-square me-1"></i>Sorted Vegetables</span>
+        </div>
+        <div class="right">
+          <span class="fs-12 fw-n"><i class="bx bx-headphone me-1"></i>Helpline: <a href="tel:+" class="clr-dk-a">0998 007 113</a></span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ! top header area -->
+
+
+  <!-- Top middle bar area -->
+  <div class="top-middle py-3 bg-sec d-none d-lg-block">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-2">
+        <a href="./index.html"><img src="https://ashik-ashik.github.io/img/cool-shop/favicon/site-logo.png" alt="Site Logo" class="site-logo"></a>
+        </div>
+
+        <div class="col-6">
+          <div class="input-group my-0">
+            <input type="text" class="form-control fs-11 my-0 text-white bg-transparent py-1 border-secondary rounded-0 shadow-none" placeholder="What are looking for.." aria-label="looking for" aria-describedby="locationSearch">
+            <button class="btn bg-lini py-1 rounded-0 shadow-none px-3" type="button" id="locationSearch-top"><i class="bx bx-search text-white"></i></button>
+          </div>
+        </div>
+        <div class="col-4 text-end">
+          <ul class="m-0 p-0 list-unstyled">
+            <!-- login or signup item -->
+            <li class="d-inline-block me-2">
+              <a href="#" class="a-light"><i class="bx bx-log-in-circle" data-bs-toggle="offcanvas" data-bs-target="#loginSignup" aria-controls="loginSignup"></i></a>
+            </li>
+            <!-- ! login or signup item -->
+
+            <!-- account option -->
+            <li class="d-inline-block me-3 dropdown">
+              <a href="#" class="a-light d-flex align-items-center fs-12">
+                <img src="./img/user-100.png" style="width: 20px; height: 20px;" alt="" class="rounded-circle me-1">
+                <span class="fs-12 align-self-end fw-n">Hi, Ashik <i class="ms-1 bx bx-chevron-down fs-13"></i></span>
+              </a>
+              <ul class="dropdown-menu dropdown-menu-end bg-sec" id="menu-account-option" aria-labelledby="account-option">
+                <li><a class="dropdown-item py-2 fs-13 a-light d-block" href="./my-account.html">My Account</a>
+                </li>
+                <li><a class="dropdown-item py-2 fs-13 a-light d-block" href="./promo.html">Promos</a></li>
+                <li><a class="dropdown-item py-2 fs-13 a-light d-block" href="./my-address.html">My Address</a></li>
+                <li><a class="dropdown-item py-2 fs-13 a-light d-block" href="./help.html">Help & Support</a></li>
+                <li><a class="dropdown-item py-2 fs-13 a-light d-block" href="./term-condition.html">Terms, Privacy & Policy</a></li>
+                <li><a class="dropdown-item py-2 fs-13 a-light d-block" href="./ticket-help.html">Ticket Help</a></li>
+                <li><a class="dropdown-item py-2 fs-13 a-light d-block" href="./login.html">Log Out</a></li>
+              </ul>
+            </li>
+            <!-- ! account option -->
+
+            <!-- notification item -->
+            <li class="d-inline-block me-2 dropdown">
+              <a href="#" class="a-light"><i class="bx bx-bell"></i></a>
+              <ul class="dropdown-menu dropdown-menu-end bg-sec" id="notific" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item d-flex align-items-center justify-content-between py-3" href="./order-complete.html">
+                    <span>
+                      <span class="text-white fw-md fs-13">Yay! Your Order Complete</span>
+                      <span class="d-block text-white fs-11"><i class='bx bx-calendar me-2'></i>Today, 10:28 AM</span>
+                    </span>
+                    <i class="bx bxs-check-circle text-success"></i>
+                  </a>
+                </li>
+                <li><a class="dropdown-item py-3" href="./order-process.html">
+                  <span class="text-secondary fw-md fs-13">Yippi! Order Success</span>
+                  <span class="d-block text-secondary fs-11"><i class='bx bx-calendar me-2'></i>Yesterday, 6:28 PM</span>
+                </a></li>
+                <li><a class="dropdown-item py-3" href="./promo.html">
+                  <span class="text-secondary fw-md fs-13">New Promos Coming!</span>
+                  <span class="d-block text-secondary fs-11"><i class='bx bx-calendar me-2'></i>Friday, 3:28 AM</span>
+                </a></li>
+              </ul>
+            </li>
+            <!-- ! notification item -->
+
+            <!-- cart item -->
+            <li class="d-inline-block me-2">
+              <a href="#" class="a-light" data-bs-toggle="offcanvas" data-bs-target="#cartoff-canvase" aria-controls="cartoff-canvase"><i class="bx bx-cart"></i></a>
+            </li>
+          </ul>
+        </div>
+       
+      </div>
+    </div>
+  </div>
+  <!-- ! Top middle bar area -->
+
+
+
+  <!-- navigation for large  -->
+  <nav class="navbar navbar-expand-md navbar-light bg-lini py-0 d-none d-lg-block">
+    <div class="container">
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-lg" aria-controls="navbar-lg" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse py-0" id="navbar-lg">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 my-0 py-0">
+          <li class="nav-item">
+            <a class="nav-link active a-light fs-13" aria-current="page" href="/index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link a-light fs-13" href="./shop.html">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link a-light fs-13" href="./cart.html">Cart</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link a-light fs-13" href="./my-order.html">My Order</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link a-light fs-13" href="./my-account.html">Account</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link a-light fs-13" href="./help.html">Help</a>
+          </li>
+          
+        </ul>
+
+        <ul class="navbar-nav ms-auto my-0 py-0">
+          <li class="nav-item my-0">
+            <a class="nav-link active a-light fs-13" href="./tranding.html">Tranding</a>
+          </li>
+          <li class="nav-item bg-or-active my-0">
+            <a class="nav-link active a-light fs-13 px-4" href="./promo.html"><i class='bx bx-badge-check me-1'></i>Pomos</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- ! navigation for large  -->
+
+
+    <!-- Tab and mobile menu area -->
+    <div class="top-middle py-3 bg-sec d-block d-lg-none">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-6 d-flex align-items-center">
+            <a href="./index.html"><img src="https://ashik-ashik.github.io/img/cool-shop/favicon/site-logo.png" alt="Site Logo" class="site-logo"></a>
+            <h6 class="fs-3 mb-0 logo-name bg-lini d-inline-block">Cool-Shop</h6>
+          </div>
+          <div class="col-6 text-end">
+            <button class="btn p-0 rounded-0 shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#menuoff-canvase" aria-controls="menuoff-canvase">
+              <i class='bx bx-menu-alt-right display-6 text-white'></i>
+            </button>
+          </div>
+  
+        </div>
+        
+        <div class="mt-3">
+          <div class="input-group my-0">
+            <input type="text" class="form-control fs-11 my-0 text-white bg-transparent py-1 text-dark rounded-0 shadow-none" placeholder="Location Sea.." aria-label="Recipient's username" aria-describedby="locationSearch">
+            <button class="btn bg-lini py-1 rounded-0 shadow-none px-4" type="button" id="locationSearch"><i class="bx bx-search"></i></button>
+          </div>
+        </div>
+       
+      </div>
+    </div>
+    <!-- ! Tab and mobile menu area -->
+
+</header>
+
+<!-- tab and mobile offcanvase -->
+<div class="offcanvas offcanvas-start" style="width: 280px;" data-bs-scroll="true" tabindex="-1" id="menuoff-canvase" aria-labelledby="mobileOffcanvase">
+  <div class="offcanvas-header bg-main py-2 text-center text-white">
+    <h5 class="offcanvas-title fw-bold fs-15" id="mobileOffcanvase">Cool Online Shop</h5>
+    <button type="button" class="btn p-0 shadow-none rounded-0 fs-3 text-white" data-bs-dismiss="offcanvas" aria-label="Close"><i class="bx bx-x"></i></button>
+  </div>
+  <div class="offcanvas-body bg-sec px-0">
+    
+    <ul class="list-unstyled menu-list">
+      <li class="fs-13 border-bottom"><a href="./index.html" class="a-light py-3 d-block"><i class="bx bx-home me-1"></i>Home</a></li>
+      <li class="fs-13 border-bottom">
+        <div class="accordion menu-accordion" id="menu-authentic">
+          <div class="accordion-item bg-sec rounded-0">
+            <h2 class="accordion-header rounded-0" id="authentic-items">
+              <button class="accordion-button collapsed px-0 py-3 bg-sec rounded-0 shadow-none border-0 fs-13 a-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-authentic" aria-expanded="true" aria-controls="collapse-authentic">
+                <i class="bx bx-log-in me-1"></i>Authentication
+              </button>
+            </h2>
+            <div id="collapse-authentic" class="accordion-collapse collapse" aria-labelledby="authentic-items" data-bs-parent="#menu-authentic">
+              <div class="accordion-body ps-1 py-0">
+                <ul class="list-unstyled p-0 m-0">
+                  <li class="fs-13 border-bottom"><a href="./login.html" class="a-light py-2 d-block"><i class="bx bx-log-in me-1"></i> Log In</a></li>
+                  <li class="fs-13 border-bottom"><a href="./logout.html" class="a-light py-2 d-block"><i class="bx bx-log-out me-1"></i>Log Out</a></li>
+                  <li class="fs-13"><a href="./varification.html" class="a-light py-2 d-block"><i class="bx bxs-check-shield me-1"></i>Varification</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="fs-13 border-bottom px-0"><a href="./shop.html" class="a-light px-0 py-3 d-block">Listing</a></li>
+      <li class="fs-13 border-bottom"><a href="./single-product.html" class="a-light py-3 d-block">Details</a></li>
+      <li class="fs-13 border-bottom"><a href="./tranding.html" class="a-light py-3 d-block">Tranding</a></li>
+      <li class="fs-13 border-bottom"><a href="./recommended.html" class="a-light py-3 d-block">Recommend</a></li>
+      <li class="fs-13 border-bottom"><a href="./popular.html" class="a-light py-3 d-block">Most Popular</a></li>
+      <li class="fs-13 border-bottom"><a href="./cart.html" class="a-light py-3 d-block">Cart</a></li>
+      <li class="fs-13 border-bottom"><a href="./checkout.html" class="a-light py-3 d-block">Checkout</a></li>
+      <li class="fs-13 border-bottom"><a href="./order-success.html" class="a-light py-3 d-block">Successful</a></li>
+      <li class="fs-13 border-bottom">
+        <div class="accordion menu-accordion" id="menu-account">
+          <div class="accordion-item bg-sec rounded-0">
+            <h2 class="accordion-header rounded-0" id="account-items">
+              <button class="accordion-button collapsed px-0 py-3 bg-sec rounded-0 shadow-none border-0 fs-13 a-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-account" aria-expanded="true" aria-controls="collapse-authentic">
+                <i class="bx bxs-user me-1"></i>My Account
+              </button>
+            </h2>
+            <div id="collapse-account" class="accordion-collapse collapse" aria-labelledby="account-items" data-bs-parent="#menu-account">
+              <div class="accordion-body ps-1 py-0">
+                <ul class="list-unstyled">
+                  <li class="border-bottom fs-13 fw-n"><a href="./my-account.html" class="a-light py-2 d-block">My Account</a></li>
+                  <li class="border-bottom fs-13 fw-n"><a href="./promo.html" class="a-light py-2 d-block">Promos</a></li>
+                  <li class="border-bottom fs-13 fw-n"><a href="./my-address.html" class="a-light py-2 d-block">My address</a></li>
+                  <li class="border-bottom fs-13 fw-n"><a href="./term-condition.html" class="a-light py-2 d-block">Terms & conditions</a></li>
+                  <li class="border-bottom fs-13 fw-n"><a href="./help.html" class="a-light py-2 d-block">Help & support</a></li>
+                  <li class="border-bottom fs-13 fw-n"><a href="./ticket-help.html" class="a-light py-2 d-block">Help ticket</a></li>
+                  <li class="fs-13 fw-n"><a href="./logout.html" class="a-light py-2 d-block">Logout</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="fs-13 border-bottom">
+        <div class="accordion menu-accordion" id="menu-order">
+          <div class="accordion-item bg-sec rounded-0">
+            <h2 class="accordion-header rounded-0" id="order-items">
+              <button class="accordion-button collapsed px-0 py-3 bg-sec rounded-0 shadow-none border-0 fs-13 a-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-order" aria-expanded="true" aria-controls="collapse-order">
+                <i class="bx bxs-bolt me-1"></i>My Order
+              </button>
+            </h2>
+            <div id="collapse-order" class="accordion-collapse collapse" aria-labelledby="order-items" data-bs-parent="#menu-order">
+              <div class="accordion-body ps-1 py-0">
+                <ul class="list-unstyled">
+                  <li class="border-bottom fs-13 fw-n"><a href="./my-order.html" class="a-light py-2 d-block">My order</a></li>
+                  <li class="border-bottom fs-13 fw-n"><a href="./order-complete.html" class="a-light py-2 d-block">Status Complete</a></li>
+                  <li class="border-bottom fs-13 fw-n"><a href="./order-process.html" class="a-light py-2 d-block">Status on Process</a></li>
+                  <li class="border-bottom fs-13 fw-n"><a href="./order-cancle.html" class="a-light py-2 d-block">Status Canceled</a></li>
+                  <li class="fs-13 fw-n"><a href="review.html" class="a-light py-2 d-block">Review</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+    
+  </div>
+  <div class="canvas-footer fixed-item py-3 bg-main ">
+    <ul class="list-unstyled mb-0 d-flex justify-content-evenly">
+      <li class=""><a href="./index.html" class="clr-or d-inline-block"><i class="bx bx-home"></i></a></li>
+      <li class=""><a href="./cart.html" class="a-light d-inline-block"><i class="bx bx-cart"></i></a></li>
+      <li class=""><a href="./help.html" class="a-light d-inline-block"><i class="bx bx-support"></i></a></li>
+    </ul>
+  </div>
+</div>
+<!-- ! tab and mobile offcanvase -->
+
+
+<!-- login signup popup -->
+<div class="offcanvas offcanvas-end bg-main" tabindex="-1" id="loginSignup" aria-labelledby="loginSignupLabel">
+  <div class="offcanvas-header p-0 border-bottom">
+    <ul class="nav nav-pills" id="pills-tab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active shadow-none fs-11 fw-bold" id="loginTab-tab" data-bs-toggle="pill" data-bs-target="#loginTab" type="button" role="tab" aria-controls="loginTab" aria-selected="true">Sign In</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link shadow-none fs-11 fw-bold" id="signupTab-tab" data-bs-toggle="pill" data-bs-target="#signupTab" type="button" role="tab" aria-controls="signupTab" aria-selected="false">Sign Up</button>
+      </li>
+    </ul>
+    <button type="button" class="text-white btn me-2 rounded-0 bg-transparent shadow-none p-0 text-end" data-bs-dismiss="offcanvas" aria-label="Close"><i class="bx bx-x fs-5"></i></button>
+  </div>
+  <div class="offcanvas-body">
+    <div class="tab-content" id="pills-tabContent">
+
+      <!-- login tab -->
+      <div class="tab-pane px-3 mt-4 fade show active" id="loginTab" role="tabpanel" aria-labelledby="loginTab-tab">
+        <h4 class="text-light fw-bold">Welcome Back</h4>
+        <p class="fs-11 text-light">Sign in to Continue.</p>
+        <form action="" class="form mt-3" onsubmit="loginPop(); return false">
+          <label for="login-pop-email" class="fs-11 text-white mb-1">Email</label>
+          <input type="email" name="login-pop-email" id="login-pop-email" class="form-control shadow-none bg-transparent fs-13 text-white" placeholder="Enter Email">
+          <label for="login-pop-Password" class="fs-11 mb-1 text-white mt-3">Password</label>
+          <input type="password" name="login-pop-Password" id="login-pop-Password" class="form-control shadow-none bg-transparent fs-13 text-white" placeholder="Enter Password">
+          <div class="d-grid mt-3">
+            <input type="submit" value="Sign In" id="login-Popup" class="form-control shadow-none btn-lini py-2">
+          </div>
+        </form>
+        <p class="clr-or text-center" id="login-pop-error"></p>
+        <p class="fs-11 text-secondary text-center my-3">or</p>
+        <div class="d-grid">
+          <a href="#" class="btn btn-secondary rounded-0 shadow-none fs-13 py-2 fw-n"><i class="bx bxl-apple me-1"></i> Sign in with Apple</a>
+        </div>
+        <div class="d-grid mt-3">
+          <a href="#" class="btn border-secondary rounded-0 shadow-none fs-13 py-2 a-light fw-n"><i class="bx bxl-google-plus me-1 clr-or"></i> Sign in with Google</a>
+        </div>
+        <p class="fs-13 text-light text-center mt-3">Don't have an account? <a href="./signup.html" class="a-light">Sign up</a></p>
+        
+      </div>
+
+      <!-- sign up tab -->
+      <div class="tab-pane fade px-3 mt-4" id="signupTab" role="tabpanel" aria-labelledby="signupTab-tab">
+        <h4 class="text-light fw-bold">Let's get started</h4>
+        <p class="fs-11 text-light">Create account to see our top picks for you!</p>
+
+        <form action="" class="form mt-3" onsubmit="signupPop(); return false">
+          
+          <label for="signup-pop-name" class="fs-11 text-white mb-1">Name</label>
+          <input type="text" name="signup-pop-name" id="signup-pop-name" class="form-control shadow-none bg-transparent fs-13 text-white" placeholder="Your Name">
+          
+          <label for="signup-pop-phone" class="fs-11 text-white mt-3 mb-1">Mobile Number</label>
+          <input type="text" name="signup-pop-phone" id="signup-pop-phone" pattern="[0-9+-]+" class="form-control shadow-none bg-transparent fs-13 text-white" placeholder="Enter Mobile">
+          
+          <label for="signup-pop-email" class="fs-11 text-white mt-3 mb-1">Email</label>
+          <input type="email" name="signup-pop-email" id="signup-pop-email" class="form-control shadow-none bg-transparent fs-13 text-white" placeholder="Enter Email">
+          
+          <label for="sign-pop-pass" class="fs-11 mb-1 text-white mt-3">Password</label>
+          <input type="password" name="sign-pop-pass" id="sign-pop-pass" class="form-control shadow-none bg-transparent fs-13 text-white" placeholder="Enter Password">
+          
+          <label for="sign-pop-con-pass" class="fs-11 mb-1 text-white mt-3">Confirm Password</label>
+          <input type="password" name="sign-pop-con-pass" id="sign-pop-con-pass" class="form-control shadow-none bg-transparent fs-13 text-white" placeholder="Confirm Password">
+          
+          <div class="d-grid mt-3">
+            <input type="submit" value="Create Account" id="signup-Popup" class="form-control border-0 fs-13 fw-n shadow-none text-white bg-lini py-3">
+          </div>
+        </form>
+        <p class="clr-or text-center" id="signup-pop-error"></p>
+
+        <p class="fs-11 text-secondary text-center my-3">or</p>
+        <div class="d-grid">
+          <a href="#" class="btn btn-secondary rounded-0 shadow-none fs-13 py-2 fw-n"><i class="bx bxl-apple me-1"></i> Sign up with Apple</a>
+        </div>
+        <div class="d-grid mt-3">
+          <a href="#" class="btn border-secondary rounded-0 shadow-none fs-13 py-2 a-light fw-n"><i class="bx bxl-google-plus me-1 clr-or"></i> Sign up with Google</a>
+        </div>
+        <p class="fs-13 text-light text-center mt-3">Already have an account! <a href="./login.html" class="a-light">Sign in</a></p>
+        
+
+      </div>
+
+    </div>
+  </div>
+
+  <div class="login-popup-footer px-2">
+      <div class="d-flex justify-content-between">
+            <button type="button" class="a-light fs-13 btn border-secondary me-2 rounded-0 bg-transparent shadow-none" data-bs-dismiss="offcanvas" aria-label="Close">Close</button>
+            <a href="./help.html" class="a-light fs-13 btn border-secondary me-2 rounded-0 bg-transparent shadow-none">Help</a>
+      </div>
+  </div>
+
+</div>
+<!-- ! login signup popup -->
+
+<!-- cart popup -->
+<div class="offcanvas offcanvas-end bg-main" tabindex="-1" id="cartoff-canvase" aria-labelledby="cartoff-canvaseLabel">
+  <div class="offcanvas-header border-bottom bdr-green">
+    <h6 class="offcanvas-title fw-md text-light" id="cartoff-canvaseLabel">Your Cart Items</h6>
+    <button type="button" class="shadow-none rounded-0 bg-transparent fs-16 btn p-0 text-light" data-bs-dismiss="offcanvas" aria-label="Close"><i class="bx bx-x-circle"></i></button>
+  </div>
+  <div class="offcanvas-body">
+    
+    <div class="row py-3 border-bottom bdr-green align-items-center">
+      <div class="col-4">
+        <a href="./single-product.html"><img src="https://ashik-ashik.github.io/img/cool-shop/g7.jpg" alt="" class="img-fluid"></a>
+      </div>
+      <div class="col-8">
+        <h6 class="text-light"><a href="./single-product.html" class="a-light">Chilli</a></h6>
+        <!-- price  -->
+        <p class="clr-or fs-13 pb-2 pb-lg-0 mb-0">৳ 120.0/KG</p>
+        <div class="d-flex justify-content-between align-items-center mt-3">
+          <!-- count product quantity -->
+          <div class="qty border">
+            <span class="qt qty-dw" data-id="c1">-</span>
+            <input type="number" name="qty-input" data-id="c1" disabled value="1" class="qt qty-input">
+            <span class="qt qty-up" data-id="c1">+</span>
+          </div>
+          <button class="btn btn-outline-danger rounded-0 shadow-none px-3 py-2 fs-13"><i class="bx bx-x me-1"></i>Remove</button>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-4 py-3 border-bottom bdr-green align-items-center">
+      <div class="col-4">
+        <img src="https://ashik-ashik.github.io/img/cool-shop/g9.jpg" alt="" class="img-fluid">
+      </div>
+      <div class="col-8">
+        <h6 class="text-light"><a href="./single-product.html" class="a-light">Cabbage</a></h6>
+        <!-- price  -->
+        <p class="clr-or fs-13 pb-2 pb-lg-0 mb-0">৳ 250.0/KG</p>
+        <div class="d-flex justify-content-between align-items-center mt-3">
+          <!-- count product quantity -->
+          <div class="qty border">
+            <span class="qt qty-dw" data-id="c2">-</span>
+            <input type="number" name="qty-input" data-id="c2" disabled value="1" class="qt qty-input">
+            <span class="qt qty-up" data-id="c2">+</span>
+          </div>
+          <button class="btn btn-outline-danger rounded-0 shadow-none px-3 py-2 fs-13"><i class="bx bx-x me-1"></i>Remove</button>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-4 py-3 border-bottom bdr-green align-items-center">
+      <div class="col-4">
+        <img src="https://ashik-ashik.github.io/img/cool-shop/g4.jpg" alt="" class="img-fluid">
+      </div>
+      <div class="col-8">
+        <h6 class="text-light"><a href="./single-product.html" class="a-light">Onion</a></h6>
+        <!-- price  -->
+        <p class="clr-or fs-13 pb-2 pb-lg-0 mb-0">৳ 120.0/KG</p>
+        <div class="d-flex justify-content-between align-items-center mt-3">
+          <!-- count product quantity -->
+          <div class="qty border">
+            <span class="qt qty-dw" data-id="c3">-</span>
+            <input type="number" name="qty-input" data-id="c3" disabled value="1" class="qt qty-input">
+            <span class="qt qty-up" data-id="c3">+</span>
+          </div>
+          <button class="btn btn-outline-danger rounded-0 shadow-none px-3 py-2 fs-13"><i class="bx bx-x me-1"></i>Remove</button>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-4 py-3 border-bottom bdr-green align-items-center">
+      <div class="col-4">
+        <img src="https://ashik-ashik.github.io/img/cool-shop/g5.jpg" alt="" class="img-fluid">
+      </div>
+      <div class="col-8">
+        <h6 class="text-light"><a href="./single-product.html" class="a-light">Tomato</a></h6>
+        <!-- price  -->
+        <p class="clr-or fs-13 pb-2 pb-lg-0 mb-0">৳ 50.0/KG</p>
+        <div class="d-flex justify-content-between align-items-center mt-3">
+          <!-- count product quantity -->
+          <div class="qty border">
+            <span class="qt qty-dw" data-id="c4">-</span>
+            <input type="number" name="qty-input" data-id="c4" disabled value="1" class="qt qty-input">
+            <span class="qt qty-up" data-id="c4">+</span>
+          </div>
+          <button class="btn btn-outline-danger rounded-0 shadow-none px-3 py-2 fs-13"><i class="bx bx-x me-1"></i>Remove</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="row cart-canvase-footer border-top">
+      <div class="bg-sec py-3">
+        <div class="d-flex justify-content-between align-items-center mb-3">
+          <span class="fs-16 fw-md text-light">Subtotal:</span>
+          <span class="fs-16 fw-md text-light">৳ 320.00</span>
+        </div>
+        <div class="row">
+          <div class="col-6">
+            <div class="d-grid">
+              <a href="./cart.html" class="btn rounded-0 shadow-none border fs-13 a-light">View Cart</a>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="d-grid">
+              <a href="./checkout.html" class="btn rounded-0 shadow-none border fs-13 a-light">Checkout</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+</div>
+<!-- ! cart popup -->
+
+
+
+
+  <!-- breadcrumb -->
+  <section class="breadcrumb-area py-3 bg-sec">
+    <div class="container">
+      <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='white'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+        <ol class="breadcrumb m-0">
+          <li class="breadcrumb-item fs-12 fw-n clr-or"><a class="clr-or" href="./index.html">Home</a></li>
+          <li class="breadcrumb-item fs-12 active text-light fw-n" aria-current="page">Recommended for You</li>
+        </ol>
+      </nav>
+    </div>
+  </section>
+  <!-- ! breadcrumb -->
+
+
+  <!-- filtering canvase -->
+    <div class="offcanvas offcanvas-end bg-main" tabindex="-1" id="filtering-sideCanvas" aria-labelledby="filtering-sideCanvasLabel">
+      <div class="offcanvas-header border-bottom border-secondary">
+        <h5 id="filtering-sideCanvasLabel" class="text-white fw-n">Filter</h5>
+        <button type="button" class="btn bg-transparent rounded-circle shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"><i class="bx bx-x a-light fw-bold" style="font-size: 25px;"></i></button>
+      </div>
+      <div class="offcanvas-body p-0">
+        <h5 class="text-white p-3 mb-0 bg-sec border-bottom border-secondary">Sort</h5>
+        <ul class="list-unstyled mb-0">
+          <li class="border-bottom border-secondary p-3">
+            <div class="form-check p-0 m-0 d-flex justify-content-between">
+              <label class="form-check-label text-white fs-12" for="topRated">Top Rated</label>
+              <input class="form-check-input" type="radio" value="Top Rated" id="topRated" name="sort">
+            </div>
+          </li>
+          <li class="border-bottom border-secondary p-3">
+            <div class="form-check p-0 m-0 d-flex justify-content-between">
+              <label class="form-check-label text-white fs-12" for="nearestMe">Nearest Me</label>
+              <input class="form-check-input" type="radio" value="Nearest Me" id="nearestMe" name="sort">
+            </div>
+          </li>
+          <li class="border-bottom border-secondary p-3">
+            <div class="form-check p-0 m-0 d-flex justify-content-between">
+              <label class="form-check-label text-white fs-12" for="cost-HtoL">Cost High to Low</label>
+              <input class="form-check-input" type="radio" value="Cost High to Low" id="cost-HtoL" name="sort">
+            </div>
+          </li>
+          <li class="border-bottom border-secondary p-3">
+            <div class="form-check p-0 m-0 d-flex justify-content-between">
+              <label class="form-check-label text-white fs-12" for="cost-LtoH">Cost Low to High</label>
+              <input class="form-check-input" type="radio" value="Cost Low to High" id="cost-LtoH" name="sort">
+            </div>
+          </li>
+
+          </ul>
+
+          <h5 class="text-white p-3 mb-0 bg-sec border-bottom border-secondary">Filter</h5>
+
+          <ul class="list-unstyled">
+
+          <li class="border-bottom border-secondary p-3">
+            <div class="form-check p-0 m-0 d-flex justify-content-between">
+              <label class="form-check-label text-white fs-12" for="opwn-now">Open Now</label>
+              <input class="form-check-input rounded-0 shadow-none" checked type="checkbox" value="Open Now" id="opwn-now" name="filter">
+            </div>
+          </li>
+          <li class="border-bottom border-secondary p-3">
+            <div class="form-check p-0 m-0 d-flex justify-content-between">
+              <label class="form-check-label text-white fs-12" for="creditCard">Credit Cards</label>
+              <input class="form-check-input rounded-0 shadow-none" type="checkbox" value="Credit Cards" id="creditCard" name="filter">
+            </div>
+          </li>
+          <li class="border-bottom border-secondary p-3">
+            <div class="form-check p-0 m-0 d-flex justify-content-between">
+              <label class="form-check-label text-white fs-12" for="alcohol">Alcohol Served</label>
+              <input class="form-check-input rounded-0 shadow-none" type="checkbox" value="Alcohol Served" id="alcohol" name="filter">
+            </div>
+          </li>
+          <li class="p-3">
+            <input type="range" class="form-range" id="price-range" min="0" max="500">
+            <div class="row">
+              <div class="col-6 px-1">
+                <label for="minPrice" class="fs-12 text-white mb-1">Min</label>
+                <input type="number" name="minPrice" id="minPrice" placeholder="৳ 10" class="fs-13 text-white shadow-none form-control rounded-0 bg-transparent">
+              </div>
+              <div class="col-6 px-1">
+                <label for="maxPrice" class="fs-12 text-white mb-1">Max</label>
+                <input type="number" name="maxPrice" id="maxPrice" placeholder="৳ 500" class="fs-13 text-white shadow-none form-control rounded-0 bg-transparent">
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="offcanvas-footer">
+        <div class="row bg-main py-2" style="border-top: 1px solid #fff !important;">
+          <div class="col-6 px-1">
+            <div class="d-grid">
+              <button class="btn rounded-0 shadow-none fs-13 a-light border py-2" data-bs-dismiss="offcanvas" aria-label="Close">Close</button>
+            </div>
+          </div>
+          <div class="col-6 px-1">
+            <div class="d-grid">
+              <button class="btn rounded-0 shadow-none fs-13 text-white py-2 bg-lini" id="filterApply">Apply</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!-- ! filtering canvase -->
+
+  <main class="main bg-main" id="main">
+
+    <!-- recommanded section -->
+    <section class="recommanded py-5 ">
+      <div class="container">
+        <div class="d-flex justify-content-between align-items-center mb-3">
+          <h4 class="text-white fw-md mb-0">Recommended</h4>
+          <div class="filter-sort">
+            <button class="sort-filter-btn fs-12 me-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#filtering-sideCanvas" aria-controls="filtering-sideCanvas"><i class="bx bxs-filter-alt me-2"></i> Filter</button>
+            <button class="sort-filter-btn fs-12" type="button" data-bs-toggle="offcanvas" data-bs-target="#filtering-sideCanvas" aria-controls="filtering-sideCanvas"><i class='bx bx-slider-alt me-2'></i> Sort</button>
+          </div>
+        </div>
+  
+        <div class="row mt-4">
+          <!-- item -->
+          <div class="col-md-4">
+            <div class="bg-sec p-2 rounded">
+              <div class="recommanded-img">
+                <a class="px-2" href="./single-product.html"><img src="https://ashik-ashik.github.io/img/cool-shop/r1.jpg" alt="" class="img-fluid rounded"></a>
+                <a class="px-2" href="./single-product.html"><img src="https://ashik-ashik.github.io/img/cool-shop/r2.jpg" alt="" class="img-fluid rounded"></a>
+                <a class="px-2" href="./single-product.html"><img src="https://ashik-ashik.github.io/img/cool-shop/r3.jpg" alt="" class="img-fluid rounded"></a>
+              </div>
+              <h6 class="mt-3 mb-1 fs-16 px-3"><a class="clr-or" href="./single-product.html">Fresh Orange</a></h6>
+              <p class="fs-11 text-light px-3">Orange Great Quality item from Jamaica.</p>
+    
+              <div class="d-flex flex-wrap justify-content-between align-items-center px-3 mt-3 pb-4">
+                <!-- price  -->
+                <p class="text-light fs-13 mb-0 fw-bold">৳ 210.0/KG</p>
+                <!-- count product quantity -->
+                <div class="qty">
+                  <span class="qt qty-dw" data-id="9">-</span>
+                  <input type="number" name="qty-input" data-id="9" disabled value="1" class="qt qty-input">
+                  <span class="qt qty-up" data-id="9">+</span>
+                </div>
+              </div>
+            </div>
+            </div>
+  
+          <!-- item -->
+          <div class="col-md-4 mt-3 mt-md-0">
+            <div class="bg-sec p-2 rounded">
+              <div class="recommanded-img">
+                <a class="px-2" href="./single-product.html"><img src="https://ashik-ashik.github.io/img/cool-shop/r4.jpg" alt="" class="img-fluid rounded"></a>
+                <a class="px-2" href="./single-product.html"><img src="https://ashik-ashik.github.io/img/cool-shop/r5.jpg" alt="" class="img-fluid rounded"></a>
+                <a class="px-2" href="./single-product.html"><img src="https://ashik-ashik.github.io/img/cool-shop/r6.jpg" alt="" class="img-fluid rounded"></a>
+              </div>
+              <h6 class="mt-3 mb-1 fs-16 px-3"><a class="clr-or" href="./single-product.html">Green Apple</a></h6>
+              <p class="fs-11 text-light px-3">Green Apple Premium item from Vietnam.</p>
+    
+              <div class="d-flex flex-wrap justify-content-between align-items-center px-3 mt-3 pb-4">
+                <!-- price  -->
+                <p class="text-light fs-13 mb-0 fw-bold">৳ 250.0/KG</p>
+                <!-- count product quantity -->
+                <div class="qty">
+                  <span class="qt qty-dw" data-id="10">-</span>
+                  <input type="number" name="qty-input" data-id="10" disabled value="1" class="qt qty-input">
+                  <span class="qt qty-up" data-id="10">+</span>
+                </div>
+              </div>
+            </div>
+            </div>
+          <!-- item -->
+          <div class="col-md-4 mt-3 mt-md-0">
+            <div class="bg-sec p-2 rounded">
+              <div class="recommanded-img">
+                <a class="px-2" href="./single-product.html"><img src="https://ashik-ashik.github.io/img/cool-shop/r7.jpg" alt="" class="img-fluid rounded"></a>
+                <a class="px-2" href="./single-product.html"><img src="https://ashik-ashik.github.io/img/cool-shop/r8.jpg" alt="" class="img-fluid rounded"></a>
+                <a class="px-2" href="./single-product.html"><img src="https://ashik-ashik.github.io/img/cool-shop/r9.jpg" alt="" class="img-fluid rounded"></a>
+              </div>
+              <h6 class="mt-3 mb-1 fs-16 px-3"><a class="clr-or" href="./single-product.html">Fresh Apple</a></h6>
+              <p class="fs-11 text-light px-3">Fresh Apple Premium item from Thailand.</p>
+    
+              <div class="d-flex flex-wrap justify-content-between align-items-center px-3 mt-3 pb-4">
+                <!-- price  -->
+                <p class="text-light fs-13 mb-0 fw-bold">৳ 235.0/KG</p>
+                <!-- count product quantity -->
+                <div class="qty">
+                  <span class="qt qty-dw" data-id="11">-</span>
+                  <input type="number" name="qty-input" data-id="11" disabled value="1" class="qt qty-input">
+                  <span class="qt qty-up" data-id="11">+</span>
+                </div>
+              </div>
+            </div>
+            </div>
+  
+        </div>
+  
+      </div>
+    </section>
+    <!-- ! recommanded section -->
+
+    </main>
+
+
+    <!-- footer area -->
+    <footer class="footer" id="footer">
+
+      <!-- top footer -->
+      <div class="top-footer py-4 bg-sec border-secondary border-top border-bottom">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-4">
+              <div class="d-flex">
+                <select style="width: 100px;" class="form-select rounded-0 shadow-none bg-transparent text-light fs-13 border-secondary me-3" aria-label="Default select example">
+                  <option class="bg-sec fs-13" selected>BDT</option>
+                  <option class="bg-sec fs-13" value="1">USD</option>
+                  <option class="bg-sec fs-13" value="2">EUR</option>
+                  <option class="bg-sec fs-13" value="3">RUBL</option>
+                </select>
+                <select style="width: 200px;" class="form-select rounded-0 shadow-none bg-transparent text-light fs-13 border-secondary" aria-label="Default select example">
+                  <option class="bg-sec fs-13" selected>Bangladesh</option>
+                  <option class="bg-sec fs-13" value="1">Russia</option>
+                  <option class="bg-sec fs-13" value="2">United States</option>
+                  <option class="bg-sec fs-13" value="3">Kanada</option>
+                  <option class="bg-sec fs-13" value="3">Brazil</option>
+                </select>
+                
+              </div>
+            </div>
+
+            <div class="col-md-4 mt-3 mt-md-0 text-center">
+              <div class="input-group m-auto">
+                <input type="text" class="form-control shadow-none fs-13 rounded-0 bg-transparent border-secondary text-white" placeholder="Email" aria-label="Email" aria-describedby="subscribe">
+                <button class="bg-lini btn rounded-0 shadow-none fs-13 text-white" type="button" id="subscribe">Subscribe</button>
+              </div>
+            </div>
+
+            <div class="col-md-4 mt-3 mt-md-0">
+              <div class="footer-social text-end">
+                <ul class="list-unstyled m-0 p-0">
+                  <li class="d-inline-block ms-2"><a href="#" class="a-light px-2 py-1 bg-main rounded-circle"><i class="bx bxl-facebook"></i></a></li>
+                  <li class="d-inline-block ms-2"><a href="#" class="a-light px-2 py-1 bg-main rounded-circle"><i class="bx bxl-twitter"></i></a></li>
+                  <li class="d-inline-block ms-2"><a href="#" class="a-light px-2 py-1 bg-main rounded-circle"><i class="bx bxl-linkedin"></i></a></li>
+                  <li class="d-inline-block ms-2"><a href="#" class="a-light px-2 py-1 bg-main rounded-circle"><i class="bx bxl-instagram"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ! top footer -->
+
+
+      <!-- footer main -->
+      <section class="footer-main py-4 bg-sec" id="footer-main">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-sm-6">
+              <h6 class="fs-15 fw-bold text-light">Products</h6>
+              <ul class="list-unstyled mt-3">
+                <li class="mb-2 fs-13 fw-n"><a href="./shop.html" class="a-light">Shop</a></li>
+                <li class="mb-2 fs-13 fw-n"><a href="./single-product.html" class="a-light">Detail</a></li>
+                <li class="mb-2 fs-13 fw-n"><a href="./tranding.html" class="a-light">Trending</a></li>
+                <li class="mb-2 fs-13 fw-n"><a href="./recommended.html" class="a-light">Recommended</a></li>
+                <li class="mb-2 fs-13 fw-n"><a href="./popular.html" class="a-light">Most Popular</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <h6 class="fs-15 fw-bold text-light">Checkout Process</h6>
+              <ul class="list-unstyled mt-3">
+                <li class="mb-2 fs-13 fw-n"><a href="./cart.html" class="a-light">Cart</a></li>
+                <li class="mb-2 fs-13 fw-n"><a href="./order-address.html" class="a-light">Order Address</a></li>
+                <li class="mb-2 fs-13 fw-n"><a href="./delivery-time.html" class="a-light">Delivery Time</a></li>
+                <li class="mb-2 fs-13 fw-n"><a href="./order-pay.html" class="a-light">Order Payment</a></li>
+                <li class="mb-2 fs-13 fw-n"><a href="./checkout.html" class="a-light">Checkout</a></li>
+                <li class="mb-2 fs-13 fw-n"><a href="./order-success.html" class="a-light">Successful</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <h6 class="fs-15 fw-bold text-light">My Account</h6>
+              <ul class="list-unstyled mt-3">
+                <li class="mb-2 fs-13 fw-n"><a href="./my-account.html" class="a-light">My Account</a></li>
+                <li class="mb-2 fs-13 fw-n"><a href="./promo.html" class="a-light">Promos</a></li>
+                <li class="mb-2 fs-13 fw-n"><a href="./my-address.html" class="a-light">My address</a></li>
+                <li class="mb-2 fs-13 fw-n"><a href="./term-condition.html" class="a-light">Terms & conditions</a></li>
+                <li class="mb-2 fs-13 fw-n"><a href="./help.html" class="a-light">Help & support</a></li>
+                <li class="mb-2 fs-13 fw-n"><a href="./ticket-help.html" class="a-light">Help ticket</a></li>
+                <li class="mb-2 fs-13 fw-n"><a href="./logout.html" class="a-light">Logout</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <h6 class="fs-15 fw-bold text-light">My Order</h6>
+              <ul class="list-unstyled mt-3">
+                <li class="mb-2 fs-13 fw-n"><a href="./my-order.html" class="a-light">My order</a></li>
+                <li class="mb-2 fs-13 fw-n"><a href="./order-complete.html" class="a-light">Status Complete</a></li>
+                <li class="mb-2 fs-13 fw-n"><a href="./order-process.html" class="a-light">Status on Process</a></li>
+                <li class="mb-2 fs-13 fw-n"><a href="./order-cancle.html" class="a-light">Status Canceled</a></li>
+                <li class="mb-2 fs-13 fw-n"><a href="review.html" class="a-light">Review</a></li>
+              </ul>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+      <!-- ! footer main -->
+
+      <!-- copyright -->
+      <div class="copyright bg-sec border-top border-secondary">
+        <div class="container">
+          <div class="py-3 d-flex flex-wrap align-items-center justify-content-between">
+            <p class="text-light fs-13 fw-n mb-0">
+              &copy; <span id="current-year"></span> Ashik Ali
+              <a href="./privacy-policy.html" class="a-light ms-2">Privacy</a>
+              <a href="./term-condition.html" class="a-light ms-2">Terms & Conditions</a>
+            </p>
+    
+            <div class="app-store text-center mt-3 mt-md-0">
+              <a href="#"><img src="https://ashik-ashik.github.io/img/cool-shop/appstore.png" class="img-fluid" alt="" style="height: 30px; width: auto;"></a>
+              <a href="#"><img src="https://ashik-ashik.github.io/img/cool-shop/playmarket.png" class="img-fluid ms-2" alt="" style="height: 30px; width: auto;"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ! copyright -->
+
+
+    </footer>
+    <!-- ! footer area -->
+
+
+
+  <!-- JQ -->
+  <script src="./assets/jquery/jQuery.js"></script>
+
+  <!-- BS -->
+  <script src="./assets/bootstrap-5/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Content Slider -->
+  <!-- <script src="./assets/Content-Slider/dist/js/jquery.sliderPro.min.js"></script> -->
+
+  <!-- Flip Count -->
+  <!-- <script src="./assets/flipUp-Countdown/js/jquery.countdown.min.js"></script> -->
+
+  <!-- Image Swap -->
+  <!-- <script src="./assets/Image-Swap/swapimagesonhover.min.js"></script> -->
+
+  <!-- magnify Glass -->
+  <!-- <script src="./assets/Magnifying-Glass/zoomsl.min.js"></script> -->
+  <!-- <script src="./assets/image-pan-zoom-hover/src/Nzoom.min.js"></script> -->
+
+  <!-- Owl Ca -->
+  <script src="./assets/OwlCarousel2/dist/owl.carousel.min.js"></script>
+
+  <!-- slick slider -->
+  <script src="./assets/slick-slider/slick/slick.min.js"></script>
+
+  <!-- Venobox -->
+  <script src="./assets/VenoBox/venobox/venobox.min.js"></script>
+
+  <!-- waypoint -->
+  <!-- <script src="./assets/waypoints/src/adapters/noframework.js"></script> -->
+
+  <!-- isotope -->
+  <script src="./assets/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- aos -->
+  <script src="./assets/aos/dist/aos.js"></script>
+
+  <!-- My CSS -->
+  <script src="./js/index.js"></script>
+
+
+</body>
+</html>

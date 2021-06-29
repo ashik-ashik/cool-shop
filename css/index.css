@@ -1,0 +1,662 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+:root{
+  --main-bg: #000000;
+  --section-bg: #1B1B1B;
+  --gradiant-bg: linear-gradient(90deg, #EB563B, #FBBD3B);
+  --or-color: #EC5A3C;
+  --or-active: #EC573B;
+  --yo-color: #FBBC3C;
+  --clr-green: #00e200;
+  --fs-11: 11px;
+  --fs-12: 12px;
+  --fs-13: 13px;
+  --fs-15: 15px;
+  --fs-15: 16px;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Ubuntu', sans-serif !important;
+}
+*{
+  font-family: 'Poppins', sans-serif !important;
+}
+/* global classes */
+
+.bg-main{
+  background: var(--main-bg) !important;
+}
+.bg-sec{
+  background: var(--section-bg) !important;
+}
+.bg-lini{
+  background: var(--gradiant-bg) !important;
+}
+.bg-dis{
+    background: #ffa60080 !important;
+}
+.bg-or-active{
+  background: var(--or-active) !important;
+}
+
+.clr-dk{
+  color: var(--main-bg) !important;
+}
+.clr-dk-a{
+  color: var(--main-bg) !important;
+  transition: .3s;
+}
+.clr-dk-a:hover{
+  color: var(--or-color) !important;
+}
+.clr-or-a,
+.clr-or{
+  color: var(--or-color) !important;
+}
+.clr-or-active{
+  color: var(--or-active) !important;
+}
+.clr-or-a:hover{
+  color: var(--clr-green) !important;
+}
+.clr-yo{
+  color: var(--yo-color) !important;
+}
+.fs-11{
+  font-size: var(--fs-11) !important;
+}
+.fs-12{
+  font-size: var(--fs-12) !important;
+}
+.fs-13{
+  font-size: var(--fs-13) !important;
+}
+.fs-15{
+  font-size: var(--fs-15) !important;
+}
+.fs-16{
+  font-size: var(--fs-16) !important;
+}
+.fw-n{
+  font-weight: 500 !important;
+}
+.fw-md{
+  font-weight: 600 !important;
+}
+.bdr-green{
+  border-color: var(--clr-green) !important;
+
+}
+
+.dis{
+  top: 4px;
+  left: 4px;
+  padding-left: 13px;
+  padding-right: 13px;
+}
+
+
+
+/* nav */
+.site-logo{
+  height: 40px;
+}
+.a-light{
+  transition: .3s;
+  color: #ccc !important;
+}
+.a-light:hover{
+  color: #ffffff !important;
+}
+#navbar-lg .a-light{
+  color: #eee !important;
+}
+#navbar-lg .a-light:hover{
+  color: #fff !important;
+}
+
+
+
+/* button coustome */
+.btn-lini{
+  border: 1px solid var(--or-color);
+  outline: none;
+  border-radius: 3px;
+  background: transparent !important;
+  transition: .4s ease-in-out;
+  color: #fff;
+  font-size: var(--fs-13);
+  padding: 6px 12px;
+}
+.btn-lini:hover{
+  color: #fff !important;
+  background: var(--gradiant-bg) !important;
+}
+
+
+/* product quantity design */
+.qty{
+  position: relative;
+  display: inline-block;
+}
+.qt{
+  background: var(--main-bg);
+  color: #fff;
+  display: inline-block;
+  border: none;
+  outline: none;
+  padding: 7px 12px;
+  font-size: var(--fs-11);
+  text-align: center;
+}
+.qty-input{
+  width: 90px;
+  -webkit-appearance: none;
+  z-index: -1;
+  border-radius: 15px;
+  padding-left: 20px;
+}
+.qty-dw,
+.qty-up{
+  border-radius: 50%;
+  z-index: 2 !important;
+  position: absolute;
+  /* background: var(--or-active); */
+  cursor: pointer;
+  user-select: none;
+  /* padding: 6px 11px; */
+
+}
+.qty-dw{
+  left: 0;
+}
+.qty-up{
+  right: 0;
+}
+.qty-dw:hover,
+.qty-up:hover{
+  background: var(--or-active);
+}
+.qty-dw:active,
+.qty-up:active{
+  background: var(--yo-color);
+}
+
+a{
+  text-decoration: none !important;
+}
+
+
+
+/* ############################################################# */
+/* ############################################################# */
+/* ! Home page design start */
+/* ! global header fooder design start */
+/* ############################################################# */
+/* ############################################################# */
+
+/* location-header */
+#location-header ul li a{
+  padding: 0 10px !important;
+}
+#location-header ul li:hover{
+  background: transparent !important;
+}
+
+/* carousel */
+.category-carousel .box{
+  background: #FBBC3C;
+  border-radius: 7px;
+}
+.category-carousel .cata-item{
+  margin: 0 5px;
+}
+.category-carousel .cata-item img{
+  height: 40px;
+  margin: auto;
+}
+
+.recommanded-img .slick-arrow{
+   display: none !important;
+ }
+
+.slick-prev {
+  left: 0px;
+  z-index: 2;
+}
+.slick-next {
+  right: 0px;
+  z-index: 2;
+}
+.logo-name{
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text !important;
+  font-weight: 900 !important;
+  font-family: "Poppins";
+}
+
+.fixed-item{
+  position: sticky !important;
+  bottom: 0 !important;
+  left: 0 !important;
+}
+.fixed-item .bx{
+  font-size: 26px !important;
+}
+.menu-list li{
+  border-width: 1px !important;
+  border-color: #444 !important;
+}
+.menu-list li button,
+.menu-list li > a{
+  padding-left: 10px !important;
+
+}
+
+.menu-accordion .accordion-button{
+  border-color: transparent !important;
+}
+.accordion-button::after {
+  background-size: .75rem;
+  filter: invert(2);
+}
+
+
+/* login signup popup */
+#loginSignup .nav button{
+  color: #fff !important;
+  border-radius: 0px !important;
+  padding: 16px 50px;
+  position: relative;
+}
+#loginSignup .nav button.active{
+  color: var(--clr-green) !important;
+  background: var(--section-bg) !important;
+  border-radius: 0px !important;
+  position: relative;
+}
+#loginSignup .nav button.active::after{
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: var(--clr-green) !important;
+  inherits: 0 0 0 0;
+  transform-origin: top left;
+  transition: .4s;
+}
+
+.login-popup-footer {
+  position: sticky;
+  position: -webkit-sticky;
+  bottom: 0;
+  left: 0;
+}
+.login-popup-footer .btn{
+  width: 48%;
+}
+
+.top-middle #menu-account-option{
+  right: -30px !important;
+  border-top: 3px solid var(--clr-green) !important;
+  border-top-left-radius: 0px !important;
+  border-top-right-radius: 0px !important;
+  box-shadow: 0px 0px 7px #ffffff49 !important;
+}
+.top-middle #notific{
+  right: -30px !important;
+  width: 300px !important;
+  border-top: 3px solid var(--clr-green) !important;
+  border-top-left-radius: 0px !important;
+  border-top-right-radius: 0px !important;
+  z-index: 999999;
+  box-shadow: 0px 0px 7px #ffffff49 !important;
+}
+.top-middle .dropdown-menu li:hover a{
+  background: var(--main-bg) !important;
+}
+
+.cart-canvase-footer{
+  position: sticky;
+  position: -webkit-sticky;
+  bottom: 0 !important;
+  left: 0 !important;
+  z-index: 55;
+  /* width: 100% !important; */
+}
+
+
+/* ############################################################# */
+/* ############################################################# */
+/* ! Home page design end */
+/* ! global header fooder design end */
+/* ############################################################# */
+/* ############################################################# */
+
+
+
+/* ############################################################## */
+/* ############################################################## */
+/* promo page */
+/* ############################################################## */
+/* ############################################################## */
+
+/* global dashboard design */
+.profile-dashboard .profile-nav .bx{
+  font-size: 16px !important;
+}
+.profile-dashboard .profile-nav .bxs-user{
+  background: linear-gradient(90deg, #FD710F, #F8A63E) !important;
+}
+.profile-dashboard .profile-nav .bx-badge-check{
+  background: linear-gradient(90deg, #F8A63E, #7DCE5A) !important;
+}
+.profile-dashboard .profile-nav .bx-home{
+  background: linear-gradient(90deg, #00ffaa, #0077ff) !important;
+}
+.profile-dashboard .profile-nav .bx-error-circle{
+  background: linear-gradient(90deg, #00a2ff, #003cff) !important;
+}
+.profile-dashboard .profile-nav .bx-support{
+  background: linear-gradient(90deg, #ff9100, #f700ff) !important;
+}
+.profile-dashboard .profile-nav .bx-shield{
+  background: linear-gradient(90deg, #00ff37, #a800b8) !important;
+}
+.profile-dashboard .profile-nav .bx-power-off{
+  background: linear-gradient(90deg, #ff0000, #ff0bd6) !important;
+}
+.profile-nav ul > li{
+  position: relative;
+}
+.profile-nav ul > li.active::before,
+.profile-nav ul > li::before{
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0; bottom: 0; left: 0;
+  inset: 100 0 0 0;
+  background: var(--clr-green);
+  z-index: 1;
+  transition: transform .6s ease;
+  height: 1px;
+}
+.profile-nav ul > li:hover::before{
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.profile-nav ul > li::before{
+  transform: scaleX(0);
+  transform-origin: top right;
+}
+.profile-nav ul > li.active::before{
+  /* width: 100%; */
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+/* ! global dashboard design */
+
+.promo-1{
+  background: linear-gradient(90deg, #F6C03C, #5CD363);
+}
+.promo-2{
+  background: linear-gradient(90deg, #17A1B8, #1971CB);
+}
+.promo-3{
+  background: linear-gradient(90deg, #FF6101, #F5BA4F);
+}
+.promo-detail .header{
+  border-top-left-radius: 3px !important;
+  border-top-right-radius: 3px !important;
+}
+.promo-detail .terms-condition{
+  border-bottom-left-radius: 3px !important;
+  border-bottom-right-radius: 3px !important;
+}
+
+/* ############################################################## */
+/* ############################################################## */
+/* ! promo page (F6C03C 5CD363) (17A1B8 1971CB) (FF6101 F5BA4F) */
+/* ############################################################## */
+/* ############################################################## */
+
+
+/* ############################################################## */
+/* ############################################################## */
+/* Tranding page design */
+/* ############################################################## */
+/* ############################################################## */
+.sort-filter-btn{
+  outline: none;
+  border: none;
+  border-radius: 3px !important;
+  color: #ddd !important;
+  background: #2020209c !important;
+  padding: 10px 20px;
+  transition: color .4s;
+}
+.sort-filter-btn:hover{
+  color: #fff !important;
+}
+
+/* global */
+#filtering-sideCanvas .offcanvas-header{
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  left: 0;
+}
+#filtering-sideCanvas .offcanvas-footer{
+  position: sticky;
+  position: -webkit-sticky;
+  bottom: 0;
+  left: 0;
+}
+/* ! global */
+/* ############################################################## */
+/* ############################################################## */
+/* ! tranding page design */
+/* ############################################################## */
+/* ############################################################## */
+
+
+/* most popular page */
+.popular-product .slick-prev:before ,
+.popular-product .slick-next:before {
+  background: var(--main-bg) !important;
+  padding: 7px !important;
+  border-radius: 50% !important;
+}
+
+
+/* signle product page */
+.weight .btn{
+  border: 1px solid var(--or-color) !important;
+}
+
+.main-img img{
+  height: 218px;
+}
+.tumb-img img{
+  height: 80px !important;
+  margin-right: 5px !important;
+}
+
+
+/* cart page and checkout */
+#cartAccordion .accordion-button::after  {
+ background: none !important;
+ display: none !important;
+ }
+
+ #cartAccordion .accordion-item{
+   border: none !important;
+   border-bottom: 3px solid #00e200 !important;
+   border-radius: 7px !important;
+ }
+ #cartAccordion .accordion-button{
+  border-top-left-radius: 7px !important;
+  border-top-right-radius: 7px !important;
+}
+
+#deliveryTime-tab .nav-link{
+  position: relative;
+  background: transparent !important;
+  color: #fff !important;
+  padding: 15px !important;
+}
+
+#deliveryTime-tab .nav-link::before,
+#deliveryTime-tab .nav-link.active::before,
+#c-pay-option .nav-link.active::after,
+#c-pay-option .nav-item::after{
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  inset: 100 0 0 0;
+  background: var(--clr-green);
+  z-index: 1;
+  transition: transform .6s ease;
+  height: 2px;
+}
+#c-pay-option .nav-item:hover::after,
+#deliveryTime-tab .nav-link:hover::before{
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+#c-pay-option .nav-item::after,
+#deliveryTime-tab .nav-link::before{
+  transform: scaleX(0);
+  transform-origin: top right;
+}
+#deliveryTime-tab .nav-link.active::before{
+  transform: scaleX(1);
+}
+#deliveryTime-tab .nav-link.active{
+  color: #00e200 !important;
+}
+#deliveryTime-tab .nav-link .d-block{
+  margin-bottom: -5px !important;
+}
+
+
+#c-pay-option .nav-item{
+  width: 33% !important;
+  /* flex-basis: 33% !important; */
+  position: relative;
+  margin-right: .33%;
+}
+#c-pay-option .nav-link.active{
+  background: transparent !important;
+  color: #00e200 !important;
+}
+#c-pay-option .nav-link{
+  color: #fff !important;
+  font-size: var(--fs-13);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-weight: 500;
+}
+
+.modal-backdrop{
+  background: #ffffff83 !important;
+}
+.modal{
+  background: #ffffff6c !important;
+}
+
+
+/* order success page */
+.success-area{
+  height: 100vh;
+  background: linear-gradient(140deg, var(--main-bg), #00e200);
+}
+@media screen and (max-width: 991px) {
+  .success-area .status-box{
+    width: 100% !important;
+  }
+}
+
+/* my order >> complete >> status >> process >> cancle */
+
+.order-dashboard .order-tab a{
+  transition: background .4s ease-in-out !important;
+  background: #555;
+}
+
+.order-dashboard .order-tab a.active .bx{
+  color: #000000 !important;
+}
+.order-dashboard .order-tab a:hover{
+  background: linear-gradient(270deg, var(--main-bg) 80%, #333 20%);
+ }
+.order-dashboard .order-tab a.active,
+.order-dashboard .order-tab a.active:hover{
+  background: linear-gradient(270deg, var(--main-bg) 80%, #fff 20%);
+}
+
+.delivered{
+  background: linear-gradient(90deg, #ff6600, #03ca03);
+}
+.onprog{
+  background: linear-gradient(90deg, #ff9100, #ca6d03);
+}
+.canceled{
+  background: linear-gradient(90deg, #ff3300, #e94747);
+}
+@media screen and (max-width:991px) {
+  .order-dashboard .order-tab a:hover{
+    background: var(--main-bg) ;
+   }
+  .order-dashboard .order-tab a.active,
+  .order-dashboard .order-tab a.active:hover{
+    background: var(--main-bg);
+  }
+  .order-dashboard .order-tab a.active .bx{
+    color: #fff !important;
+  }
+}
+
+
+
+/* varification page */
+.varification{
+  height: 100vh !important;
+}
+@media screen and (max-width:768px) {
+  .varification .w-50,
+  .varification .w-75{
+    width: 100% !important;
+  }
+}
+
+
+/* log in page */
+.log-slider{
+  height: 100vh !important;
+}
+.login-main .owl-carousel .owl-dot span{
+  background: var(--or-active);
+}
+.login-main .owl-carousel .owl-dot.active span{
+  background: var(--main-bg);
+}
+
+
+
+
+/* faqs */
+#faqsAccordion .accordion-button::after{
+  background: none !important;
+}
+#faqsAccordion .accordion-button .bx{
+  transition-duration: .2s;
+}
+#faqsAccordion .accordion-button.collapsed .bx{
+  transform: rotate(180deg);
+}
