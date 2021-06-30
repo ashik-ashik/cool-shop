@@ -660,3 +660,31 @@ a{
 #faqsAccordion .accordion-button.collapsed .bx{
   transform: rotate(180deg);
 }
+
+
+/* mobile menu chevron */
+#menuoff-canvase .accordion .accordion-button::before {
+  position: relative;
+  background: none !important;
+}
+#menuoff-canvase .accordion .accordion-button::before {
+	border-style: solid;
+	border-width: 0.20em 0.20em 0 0;
+	content: '';
+	display: inline-block;
+	height: 0.45em;
+	right: 1em;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%) rotate(-45deg);
+	/* vertical-align: top; */
+	width: 0.45em;
+  transition-duration: .2s;
+}
+#menuoff-canvase .accordion .accordion-button.collapsed::before {
+	transform: translateY(-50%) rotate(135deg);
+}
+
+#menuoff-canvase .accordion-button::after {
+ background-image: none !important;
+}
