@@ -161,6 +161,9 @@ $(document).ready(function(){
       $('#locationSearch').click(function(){
         window.location = "./search.html";
       });
+      $('#locationSearch-top').click(function(){
+        window.location = "./search.html";
+      });
 
 
 
