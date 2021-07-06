@@ -688,3 +688,13 @@ a{
 #menuoff-canvase .accordion-button::after {
  background-image: none !important;
 }
+
+/* some simple responsive spacing fixing */
+@media screen and (max-width: 767px) {
+  .tranding-area .col-6,
+  .pick-today .col-6{
+    padding-right: 0px !important;
+  }
+  
+}
+/* all content are fully responsived and fixed */
